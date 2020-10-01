@@ -1,6 +1,18 @@
-### Crown Cloathing
+## Crown Cloathing
+
+---
 
 This is a E-Commerce Application UI based on React component.
+
+<br/>
+
+### Commands for Start Project
+
+---
+
+`npm install`
+<br/>
+`npm start`
 
 ### Packages
 

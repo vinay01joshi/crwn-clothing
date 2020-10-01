@@ -3,13 +3,13 @@ import './directory.styles.scss'
 
 import MenuItem from '../menu-item/menu-item.component'
 
-import sections from './directory.data';
+import SECTIONS_DATA from './directory.data';
 
 class Directory extends React.Component {
     constructor() {
         super();
         this.state = {
-            sections
+            sections: SECTIONS_DATA
         }
     }
 
