@@ -24,6 +24,7 @@ This is a E-Commerce Application UI based on React component.
 - [redux-logger](https://www.npmjs.com/package/redux-logger) `Logging Readux Action and events`
 - [react-redux](https://www.npmjs.com/package/react-redux) `Supporting package for react to use redux in application`
 - [readux](https://www.npmjs.com/package/redux) `Package used for statemanagement`
+- [reselect](https://www.npmjs.com/package/reselect) `Package for Redux selector`
 
 ### Additional Concepts
 
