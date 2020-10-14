@@ -34,3 +34,8 @@ This is a E-Commerce Application UI based on React component.
   - [REACT 360](https://facebook.github.io/react-360/)
   - [REACT-BLESSED](https://github.com/Yomguithereal/react-blessed)
   - [REACT-DESKTOP](https://reactdesktop.js.org/)
+  - [UTF-8 Dingbats](https://www.w3schools.com/charsets/ref_utf_dingbats.asp) Standers for rnders HTML
+
+## Notes and Discusson
+
+- V#No:129 (Dispatch Action Shorthand) - Why Dispatch available in connect why we do not write mapToDispatch in this case.
