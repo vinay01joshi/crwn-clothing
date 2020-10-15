@@ -4,7 +4,7 @@ import { createStructuredSelector } from 'reselect'
 import './directory.styles.scss'
 
 import MenuItem from '../menu-item/menu-item.component'
-import { selectDirecotrySection } from '../../redux/directory/direcotry.selector';
+import { selectDirecotrySection } from '../../redux/directory/direcotry.selectors';
 
 const Directory = ({ sections }) => (
     <div className='directory-menu'>
