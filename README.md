@@ -25,6 +25,7 @@ This is a E-Commerce Application UI based on React component.
 - [react-redux](https://www.npmjs.com/package/react-redux) `Supporting package for react to use redux in application`
 - [readux](https://www.npmjs.com/package/redux) `Package used for statemanagement`
 - [reselect](https://www.npmjs.com/package/reselect) `Package for Redux selector`
+- [redux-persist](https://www.npmjs.com/package/redux-persist) `Package used for store redux state in localstorage of webBrowser.`
 
 ### Additional Concepts
 
