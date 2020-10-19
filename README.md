@@ -26,6 +26,7 @@ This is a E-Commerce Application UI based on React component.
 - [readux](https://www.npmjs.com/package/redux) `Package used for statemanagement`
 - [reselect](https://www.npmjs.com/package/reselect) `Package for Redux selector`
 - [redux-persist](https://www.npmjs.com/package/redux-persist) `Package used for store redux state in localstorage of webBrowser.`
+- [react-stripe-checkout](https://www.npmjs.com/package/react-stripe-checkout) `Package to support stripe payments in React.`
 
 ### Additional Concepts
 
