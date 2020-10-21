@@ -41,6 +41,15 @@ This is a E-Commerce Application UI based on React component.
 
 - To Test `STRIPE` test card :credit_card: based on date please click on [here](https://stripe.com/docs/testing#cards) to know about
 
+## Deployment
+
+Deploying react project in **_ Heroku _** please follow the below commands
+
+> heroku login
+> <br/> <br/>
+> heroku create `<project-name>` --buildpack https://github.com/mars/create-react-app-buildpack.git > <br/><br/>
+> git push heroku master
+
 ## Notes and Discusson
 
 - V#No:129 (Dispatch Action Shorthand) - Why Dispatch available in connect why we do not write mapToDispatch in this case.
