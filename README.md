@@ -27,6 +27,7 @@ This is a E-Commerce Application UI based on React component.
 - [reselect](https://www.npmjs.com/package/reselect) `Package for Redux selector`
 - [redux-persist](https://www.npmjs.com/package/redux-persist) `Package used for store redux state in localstorage of webBrowser.`
 - [react-stripe-checkout](https://www.npmjs.com/package/react-stripe-checkout) `Package to support stripe payments in React.`
+  [styled-component](https://www.npmjs.com/package/styled-components) `Pcakge to support Style component which help us to narrow down css global class scoping`
 
 ### Additional Concepts
 
@@ -37,7 +38,7 @@ This is a E-Commerce Application UI based on React component.
   - [REACT 360](https://facebook.github.io/react-360/)
   - [REACT-BLESSED](https://github.com/Yomguithereal/react-blessed)
   - [REACT-DESKTOP](https://reactdesktop.js.org/)
-  - [UTF-8 Dingbats](https://www.w3schools.com/charsets/ref_utf_dingbats.asp) Standers for rnders HTML
+  - [UTF-8 Dingbats](https://www.w3schools.com/charsets/ref_utf_dingbats.asp) Standers for rnders HTML -[BEM](http://getbem.com/) Project for making css class unique through out the application
 
 - To Test `STRIPE` test card :credit_card: based on date please click on [here](https://stripe.com/docs/testing#cards) to know about
 
@@ -45,9 +46,8 @@ This is a E-Commerce Application UI based on React component.
 
 Deploying react project in **_ Heroku _** please follow the below commands
 
-> heroku login
-> <br/> <br/>
-> heroku create `<project-name>` --buildpack https://github.com/mars/create-react-app-buildpack.git > <br/><br/>
+> heroku login <br/> <br/>
+> heroku create `<project-name>` --buildpack https://github.com/mars/create-react-app-buildpack.git <br/><br/>
 > git push heroku master
 
 ## Notes and Discusson
