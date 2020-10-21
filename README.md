@@ -33,10 +33,13 @@ This is a E-Commerce Application UI based on React component.
 - [Importing SVG in React](https://create-react-app.dev/docs/adding-images-fonts-and-files/) <br/>
   This article show that how to import png's and svg's in React comonent in better way.
 - React additional libraries.
+
   - [REACT 360](https://facebook.github.io/react-360/)
   - [REACT-BLESSED](https://github.com/Yomguithereal/react-blessed)
   - [REACT-DESKTOP](https://reactdesktop.js.org/)
   - [UTF-8 Dingbats](https://www.w3schools.com/charsets/ref_utf_dingbats.asp) Standers for rnders HTML
+
+- To Test `STRIPE` test card :credit_card: based on date please click on [here](https://stripe.com/docs/testing#cards) to know about
 
 ## Notes and Discusson
 
