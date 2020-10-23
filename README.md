@@ -54,3 +54,7 @@ Deploying react project in **_ Heroku _** please follow the below commands
 ## Notes and Discusson
 
 - V#No:129 (Dispatch Action Shorthand) - Why Dispatch available in connect why we do not write mapToDispatch in this case.
+
+### Patterns and Practices
+
+- **_ HOC _** `(Higher Order Component )` Pattern used i used for implmenting spinner in while calling async backend api from firebase.
