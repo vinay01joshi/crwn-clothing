@@ -18,3 +18,8 @@ export const selectCollection = collectionUrlParams => createSelector(
     [selectShopCollection],
     collection => (collection ? collection[collectionUrlParams] : null)
 )
+
+export const selectIsCollectionFetching = createSelector(
+    [selectShop],
+    shop => shop.isFetching
+)
