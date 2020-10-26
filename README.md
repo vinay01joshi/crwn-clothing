@@ -54,6 +54,7 @@ Deploying react project in **_ Heroku _** please follow the below commands
 ## Notes and Discusson
 
 - V#No:129 (Dispatch Action Shorthand) - Why Dispatch available in connect why we do not write mapToDispatch in this case.
+- V#No:180 (HOC Pattern) - Why we need to use HOC pattern.
 
 ### Patterns and Practices
 
