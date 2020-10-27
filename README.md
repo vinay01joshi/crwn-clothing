@@ -28,7 +28,9 @@ This is a E-Commerce Application UI based on React component.
 - [redux-persist](https://www.npmjs.com/package/redux-persist) `Package used for store redux state in localstorage of webBrowser.`
 - [react-stripe-checkout](https://www.npmjs.com/package/react-stripe-checkout) `Package to support stripe payments in React.`
 - [styled-component](https://www.npmjs.com/package/styled-components) `Pacakge to support Style component which help us to narrow down css global class scoping`
-- [redux-thunk](https://www.npmjs.com/package/redux-thunk)` Package to support asynchornous request in redux code`
+- [redux-thunk](https://www.npmjs.com/package/redux-saga)` Package to support asynchornous request in redux code`
+
+- [redux-saga](https://www.npmjs.com/package/redux-saga) `This npm package is a library that aims to make application side effects (i.e. asynchronous things like data fetching and impure things like accessing the browser cache) easier to manage, more efficient to execute, easy to test, and better at handling failures`
 
 ### Additional Concepts
 
@@ -56,7 +58,19 @@ Deploying react project in **_ Heroku _** please follow the below commands
 
 - V#No:129 (Dispatch Action Shorthand) - Why Dispatch available in connect why we do not write mapToDispatch in this case.
 - V#No:180 (HOC Pattern) - Why we need to use HOC pattern.
+- **_Pure Function vs Impure function_**
+
+  - Pure fuction <br/>
+    ` const addNumbers(a,b) => a + b` No matter every time we call this fuction this give us exact same output with same parameter for ex: `addNumber(3,4)` will give us every time `7`
+
+  - Impure fuction <br/>
+    `let num = 5` <br/>
+    ` const addNumbers(a,b) => num + a + b` this function value depends upon the number. we can not control the num variable that's why its impure. for ex: `addNumber(3,4)` will give us `12` but when we change `num = 6` this will give us `13`
+
+- Generator function <br/>
+  `fnuction* gen(i) { yield i }`
 
 ### Patterns and Practices
 
 - **_ HOC _** `(Higher Order Component )` Pattern used i used for implmenting spinner in while calling async backend api from firebase.
+- **_Container Pattern_** Move conatiner releated code to its own conatiner.
