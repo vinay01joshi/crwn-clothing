@@ -1,8 +1,6 @@
 ## Crown Cloathing
 
----
-
-This is a E-Commerce Application UI based on React component.
+This is a E-Commerce Application UI based on React component. With Best parttern and practices
 
 <br/>
 
