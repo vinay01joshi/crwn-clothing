@@ -7,7 +7,6 @@ import ShopPage from './pages/shop/shoppage.component';
 import CheckoutPage from './pages/checkout/checkout.component';
 import SignInAndSignUp from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
 import './App.css';
-import { auth, CreateUserProfileDocument } from './firebase/firebase.utils';
 import { setCurrentUser } from './redux/user/user.action';
 import { selectCurrentUser } from './redux/user/user.selectors';
 class App extends React.Component {
@@ -15,7 +14,7 @@ class App extends React.Component {
 
   componentDidMount() {
 
-    const { setCurrentUser } = this.props;
+    //const { setCurrentUser } = this.props;
 
     // this.unSubscribeFromAuth = auth.onAuthStateChanged(async userAuth => {
     //   if (userAuth) {
